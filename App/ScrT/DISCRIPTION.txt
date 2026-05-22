@@ -1,0 +1,1 @@
+﻿Calculation = xlCalculationAutomatic  ScreenUpdating = True
