@@ -178,10 +178,6 @@ The repository is organized by functional categories:
 | `TXTReadALLFile` | Read all file |
 | `TXTWriteFile` | Write to file |
 
-## 🚀 Usage
-
-To use snippets, install the [Macro Tools VBA](https://github.com/vbatools/Addin_MacroToolsVBA) add-in and configure it to use this repository as the snippet source.
-
 ## 👤 Author
 
 **VBATools**
