@@ -15,8 +15,8 @@
 2. Перейдите в меню **Other tools**
 3. Выберите одну из операций:
    - **Export Snippets to Folder** 📂 — создаёт папку `ADDIN_MACRO_TOOLS_SNIPPETS` с подкаталогами для всех сниппетов, хранящихся в надстройке
-   - **Add local JSON from Folder** 📄 — создаёт JSON-файл из папок, созданных инструментом 'Export Snippets to Folder'
-   - **Import Snippets from local JSON** — загружает актуальную базу сниппетов из локального JSON-файла, созданного инструментом 'Add local JSON from Folder'
+   - **Add local JSON from Folder** 📄 — создаёт JSON-файл из папок, созданных инструментом **Export Snippets to Folder**
+   - **Import Snippets from local JSON** — загружает актуальную базу сниппетов из локального JSON-файла, созданного инструментом **Add local JSON from Folder**
    - **Import Snippets from GitHub** 🌐 — загружает актуальную базу сниппетов из этого репозитория (все ранее загруженные сниппеты будут заменены)
 
 
