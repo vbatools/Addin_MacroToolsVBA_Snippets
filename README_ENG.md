@@ -9,14 +9,22 @@ This repository contains a collection of snippets for the [Macro Tools VBA](http
 
 The snippet database is designed for use with the Macro Tools VBA add-in. Snippets are automatically loaded from this repository into the add-in, providing quick access to frequently used VBA code fragments.
 
+## 🛠️ Usage Instructions
+
+1. Open the **Macro Tools VBA** add-in toolbar
+2. Navigate to the **Other tools** menu
+3. Select one of the following operations:
+   - **Export Snippets to Folder** 📂 — creates the `ADDIN_MACRO_TOOLS_SNIPPETS` folder with subdirectories for all snippets stored in the add-in
+   - **Import Snippets from GitHub** 🌐 — downloads the latest snippet database from this repository (all previously imported snippets will be replaced)
+
 ## 📁 Repository Structure
 
 The repository is organized by functional categories:
 
 | Category | Description | Snippet Count |
 |----------|-------------|---------------|
-| [App](#app-10) | Main application procedures and functions | 10 |
-| [Custom](#custom-46) | Custom procedures and functions | 46 |
+| [App](#app-12) | Main application procedures and functions | 12 |
+| [Custom](#custom-36) | Custom procedures and functions | 36 |
 | [DoLoop](#doloop-8) | Loops (For, Do While, Do Until) | 8 |
 | [FSO](#fso-9) | File system operations | 9 |
 | [Forms](#forms-16) | Form controls | 16 |
@@ -24,9 +32,9 @@ The repository is organized by functional categories:
 | [Iff](#iff-3) | Conditional statements | 3 |
 | [LogFile](#logfile-3) | Log file operations | 3 |
 | [TxtFile](#txtfile-9) | Text file operations | 9 |
-| **Total** | | **110** |
+| **Total** | | **99** |
 
-### App (10)
+### App (12)
 
 | Snippet | Description |
 |---------|-------------|
@@ -42,13 +50,8 @@ The repository is organized by functional categories:
 | `ScrT` | Calculation = xlCalculationAutomatic ScreenUpdating = True |
 | `ThWb` | With ThisWorkbook.Worksheets(SHName) |
 | `Wth` | With |
-| `pusub` | Public Sub |
-| `pufun` | Public Function |
-| `pucon` | Public Const |
-| `prsub` | Private Sub |
-| `prfun` | Private Function |
 
-### Custom (46)
+### Custom (36)
 
 | Snippet | Description |
 |---------|-------------|
@@ -74,7 +77,6 @@ The repository is organized by functional categories:
 | `GetListFiles` | List files in folder |
 | `getLetterByNomer` | Column letter by number |
 | `getSheetNameCloseBook` | Sheet names from closed book |
-| `GetSheetNameCloseBook` | Get sheet names from closed book |
 | `GetUniqueValueFromRange` | Unique values from range |
 | `hash` | Hash functions |
 | `HaveSheetInFile` | Check sheet in file |
@@ -88,7 +90,6 @@ The repository is organized by functional categories:
 | `SheetDelete` | Delete sheet |
 | `Status` | Status bar message |
 | `StatusBar` | Status bar |
-| `Status` | Status bar |
 | `wbIsOpen` | Check if workbook is open |
 | `WriterLogSub` | Logger |
 
